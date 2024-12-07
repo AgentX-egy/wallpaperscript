@@ -1,0 +1,21 @@
+#ifndef GENERATED_HEADER_H
+#define GENERATED_HEADER_H
+
+const wchar_t* UsageMessage =
+           L"Sets the desktop wallpaper from an image:\n\n"
+           "@PROJECT_NAME@ <display_number> <image_path>\n"
+           "@PROJECT_NAME@ /A <image_path>\n"
+           "@PROJECT_NAME@ /M (image_path | N)...\n\n"
+           "display_number\tmust be zero indexed.\n\t\t"
+           "e.g. if you want to set the first display\n\t\t\""
+           "@PROJECT_NAME@ 0 image_path\"\n\n\t\t"
+           "e.g. if you want to set the third display\n\t\t\""
+           "@PROJECT_NAME@ 2 image_path\"\n\n"
+           "/A\t\tSets all displays to the same image\n\n"
+           "/M\t\tSet each display to each image in order. "
+           "Use N to skip a display.\n\t\t"
+           "e.g. if you want to set the 2nd and 3rd display and keep "
+           "the 1st display as is\n\t\t\""
+           "@PROJECT_NAME@ /M N image_pathA image_pathB\"";
+
+#endif // GENERATED_HEADER_H
